@@ -1,0 +1,21 @@
+{
+  "name": "demo-components",
+  "version": "1.0.0",
+  "description": "Minimal Stencil component library for bug reproduction",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "dev": "stencil build --dev --watch --serve"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.36.0",
+    "@stencil/vue-output-target": "0.11.8"
+  }
+}
